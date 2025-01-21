@@ -69,7 +69,12 @@ require("./plugins/" + plugin);
 console.log('Plugins installed successful ✅')
 console.log('Bot connected to whatsapp ✅')
 
-let up = `ACD-MD CONNETED SUCCESSFULLY ✅\n\nPREFIX:${prefix}`;
+let up = `𝗔𝗖𝗗 𝗠𝗗 𝗖𝗢𝗡𝗡𝗘𝗖𝗧𝗘𝗗 𝗦𝗨𝗖𝗦𝗘𝗦𝗦𝗙𝗨𝗟𝗟𝗬 ✅\n\nPREFIX:${prefix}
+
+https://whatsapp.com/channel/0029VawxBmHFnSzBLlIQ3y1e
+
+
+𝗝𝗢𝗜𝗡 𝗢𝗨𝗥 𝗖𝗛𝗔𝗡𝗘𝗟 𝗧𝗛𝗔𝗡𝗞 𝗬𝗢𝗨 🍭👋🏻`;
 
 conn.sendMessage(ownerNumber + "@s.whatsapp.net", { image: { url: `https://i.ibb.co/ThLhsQq/IMG-20241128-WA0173-1.jpg` }, caption: up })
 
